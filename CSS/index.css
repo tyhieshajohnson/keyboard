@@ -27,14 +27,14 @@
     display: flex;
   }
   
-  @key-height: 30px;
+  @key-height key: 30px;
   .key {
     position: relative;
     display: inline-block;
     vertical-align: middle;
     text-align: center;
     padding: 3px 2px;
-    height: @key-height;
+    height: 30px;
     margin: 4px;
     letter-spacing: 0.5px;
     color: #3a3a3a;
@@ -117,4 +117,5 @@
       font-family: "Georgia", sans-serif;
       color: #555;
     }
+}
   }
